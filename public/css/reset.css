@@ -1,0 +1,20 @@
+.logo1{
+    position: absolute;
+    left: 100px;
+   
+}
+.logo{
+    position: absolute;
+    left: 30px;
+}
+
+::placeholder{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;   
+    color: #B5B2B2;
+    
+}

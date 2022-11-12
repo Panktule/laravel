@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter');
+body{
+    font-family: 'Inter';font-size: 20px;
+    display: flexbox;
+    /* margin: 0 auto;
+    padding: 0 auto; */
+    scroll-behavior: smooth;
+
+  }
+  nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 10px 20px;
+    }
+    nav ul li a{
+      color: rgba(10, 7, 136, 1);
+      position: relative;
+      padding: 5px 0;
+      text-decoration: none;
+    }
+    nav ul li a:hover{
+      color:  rgba(10, 7, 136, 1);
+    }
+    nav ul li a:after{
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background:  rgba(10, 7, 136, 1);
+      transition: .3s;
+      bottom: 0;
+    }
+    nav ul li a:hover:after{
+      width: 100%;
+    }
+    .nav-link{
+      color: rgba(10, 7, 136, 1);
+      margin: 0px 0px 0px 20px;
+    }
+    .btn{
+      background-color: #0F5888;
+      color: white;
+      border-radius: 9px;
+    }
+    .btn-2{
+      background-color: #ddf1ff;
+      color: #0F5888;
+      border: none;
+      border-radius: 20px;
+      
+
+    }
+    /* .btn-2:hover{
+      color: white;
+      border: 1px solid #0F5888;
+      background-color: white;
+    } */
+    .hero-section{
+      display: flex;
+      
+    }
+    .hero-text{
+      margin: 14% 0 0 0;
+    }
+    .info-page{
+      background-color: #ddf1ff;
+      display: flex;
+    }
+    .select-section{
+      margin: 0 auto;
+      display: flex;
+    }
+    footer ul li a{
+      list-style: none;
+      text-decoration: none;
+    }
+    /* LoginCss */
+    .card{
+      border: 1px white solid;
+      border-radius: 8px;
+    box-shadow:  3px 3px 6px #cecece,
+                 -3px -3px 6px #f2f2f2;
+    }
+
+
+  .row.row-cols-2{
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+   

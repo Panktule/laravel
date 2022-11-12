@@ -1,0 +1,70 @@
+.logos{
+    
+    padding-top: 50px;
+     padding-left: 50px;
+    
+}
+.logo1{
+    position: absolute;
+    left: 120px;
+}
+.logo{
+    position: absolute;
+}
+
+h1{
+    color: #0F5888;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Footer */
+
+#footer {
+    /* height: 20vh; */
+    background: #0F5888;;
+    padding-bottom: 50px;
+}
+
+.foot_wrap {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.foot_wrap .foot_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_wrap p,h3 {
+    color: white;
+    text-align: left;
+}
+
+.foot_wrap h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.foot_wrap p {
+    align-items: center;
+    line-height: 22px;
+}
+
+.foot_wrap p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot_wrap p i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+

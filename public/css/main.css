@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    gap: 0.1px;
+    padding-bottom: 500px;
+}
+.logo{
+    position: absolute;
+    width: 48px;
+    height: 44px;
+    right: 680px;
+}
+.logo1{
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    right: 500;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+#footer {
+    height: 20vh;
+    background: #0F5888;
+    margi
+}
+
+.foot_wrap {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.foot_wrap .foot_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_wrap p,h3 {
+    color: white;
+    text-align: left;
+}
+
+.foot_wrap h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.foot_wrap p {
+    align-items: center;
+    line-height: 22px;
+}
+
+.foot_wrap p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot_wrap p i {
+    margin-right: 10px;
+}
+.image{
+    position: absolute;
+    width: 466px;
+    height: 466px;
+    left: 851px;
+    top: 100px;
+
+    background: url(img1.svg);
+}
+
+::placeholder{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;   
+    color: #B5B2B2;
+    
+}
+
+header{
+    position: absolute;
+    width: 231px;
+height: 39px;
+left: 597px;
+top: 92px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+background-color: none;
+color: #0F5888;
+}

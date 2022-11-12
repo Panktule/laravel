@@ -1,0 +1,180 @@
+header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0F5888;
+    padding-top: 30px;
+    padding-left: 600px;
+}
+
+section{
+    background-color: 
+    #DDF1FF;
+}
+
+.main{
+    background-color: #DDF1FF;
+}
+.logos{
+    
+    padding-top: 50px;
+     padding-left: 50px;
+    
+}
+.logo1{
+    position: absolute;
+    left: 120px;
+}
+.logo{
+    position: absolute;
+}
+
+.dropdown{
+   right: 100px;
+}
+
+
+
+.body{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    padding-top: 70px;
+
+}
+.section{
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+.classes button{
+    width: 150px;
+    height: 60px;
+    left: 1089px;
+    top: 186px;
+    background: #0F5888;
+    border-radius: 22px;
+    width: 84px;
+    height: 39px;
+    left: 1122px;
+    top: 196px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
+.classes{
+    background-color:  #FFFFFF;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.book2{
+    padding-top: 70px;
+}
+
+.book3{
+    padding-top: 70px;
+}
+
+.book5{
+    padding-top: 70px;
+}
+
+.book6{
+    padding-top: 70px;
+}
+.book8{
+    padding-top: 70px;
+}
+
+.book9{
+    padding-top: 70px;
+}
+.book11{
+    padding-top: 70px;
+}
+
+.book12{
+    padding-top: 70px;
+}
+.book14{
+    padding-top: 70px;
+}
+
+.book15{
+    padding-top: 70px;
+}
+.book17{
+    padding-top: 70px;
+}
+
+.book18{
+    padding-top: 70px;
+}
+.book20{
+    padding-top: 70px;
+}
+
+.book21{
+    padding-top: 70px;
+}
+
+/* Footer */
+
+#footer {
+    height: 20vh;
+    background: #0F5888;
+    padding-bottom: 200px;
+   
+}
+
+.foot_wrap {
+    margin: 0 auto;
+    width: 80%;
+   
+}
+
+.foot_wrap .foot_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_wrap p,h3 {
+    color: white;
+    text-align: left;
+}
+
+.foot_wrap h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.foot_wrap p {
+    align-items: center;
+    line-height: 22px;
+}
+
+.foot_wrap p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot_wrap p i {
+    margin-right: 10px;
+}
